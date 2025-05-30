@@ -24,6 +24,7 @@ body {
     align-items: flex-start;
     border: solid black 1px;
     box-shadow: 5px 5px black;
+    cursor: default;
 }
 .illustration{
     border-radius: 10px;
@@ -64,4 +65,9 @@ h3{
     font-weight: 700;
     color: hsl(0, 0%, 7%);
 
+}
+
+h3:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: default;
 }
